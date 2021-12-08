@@ -1,6 +1,6 @@
 ## Local Development
 1: run "npm install" on the root dir
-2: run "npm start" on the root dir.
+2: run "npm run start" on the root dir.
 
 ## Technologies Used.
 1: Post CSS
