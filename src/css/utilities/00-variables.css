@@ -1,0 +1,39 @@
+:root {
+
+	--color-black: #000;
+	--color-white: #fff;
+
+	--color-gray: #858585; 
+	--color-gray-10:#e9e4e4;
+	--color-gray-20:#efefef;
+
+	--color-blue: #006595;
+	--color-blue-10: #25aae1;
+
+	--color-green:  #4b9c3d;
+	--color-green-10:  #5ab44b;
+
+	--color-red: #de0029;
+	--color-red-10: #ff0000;
+
+	--font-family-primary: 'Cabin', sans-serif;
+
+	--base-font-size: 1rem;
+
+	--width-page: 87.5rem;
+	--spacing-horizontal: 1rem;
+	--spacing-vertical: 1.5rem;
+	--gutter-width: 1rem;
+
+	--border-radius: 0.15rem;
+
+	--anim-duration: 0.5s;
+	--anim-easing: ease-in-out;
+
+}
+
+@custom-media --small (min-width: 30em);
+@custom-media --medium (min-width: 48em);
+@custom-media --medium-down (max-width: 48em);
+@custom-media --large (min-width: 64em);
+@custom-media --max (min-width: 101.25em);

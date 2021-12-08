@@ -1,0 +1,46 @@
+/* Layout Styles */
+
+.page-width {
+    padding: 1rem;
+    margin: 0 auto;
+    max-width: var(--width-page);
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-content {
+    flex-grow: 1;
+}
+
+.content {
+    padding: 0 0 3rem;
+}
+
+.results-content {
+    flex-grow: 1;
+}
+
+.sidebar-content {
+    padding: 2rem;
+    background: var(--color-gray-20);
+    flex-shrink: 0;
+}
+
+@media (--small) {
+    .content-container {
+        flex-direction: row;
+
+        .results-content {
+            padding-left: 4rem;
+        }
+    }
+
+    .sidebar-content {
+        width: 20rem;
+        flex-grow: 0;
+    }
+    
+}

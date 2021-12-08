@@ -1,0 +1,8 @@
+.search {
+    position: relative;
+    padding: 1rem 0;
+}
+
+.search__button {
+    position: absolute;
+}

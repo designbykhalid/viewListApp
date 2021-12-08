@@ -1,0 +1,41 @@
+.site-header {
+    background-color: var(--color-gray-20);
+	border-bottom: 1px solid var(--color-gray-10);
+}
+
+.site-header__container {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: .7rem 0 0;
+}
+
+.site-header-right-col {
+	flex-grow: 1;
+}
+
+.logo-link {
+	display: inline-block;
+}
+
+.site-title {
+	font-size: 1.5rem;
+	text-align: left;
+	padding: 1rem 0;
+}
+
+
+@media (--medium) {
+	.site-header__container {
+		flex-direction: row;
+	}
+
+	.site-header-right-col {
+		padding-left: 5rem;
+	}
+
+}
+
+
+
+

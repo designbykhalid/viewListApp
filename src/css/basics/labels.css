@@ -1,0 +1,9 @@
+legend {
+    margin-bottom: 1rem;
+}
+
+.legend-label,
+.field-group__label {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
