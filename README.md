@@ -4,8 +4,9 @@
 
 ## Technologies Used.
 1: Post CSS
-2: React
-3: Webpack
+2: BEM (CSS classes)
+3: React
+4: Webpack
 
 ## User Story
 As user I would like to see single page application with list of products and when clicked each item, it should open modal window with more details of the product.
